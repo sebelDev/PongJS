@@ -28,7 +28,7 @@ function update(time) {
     ctx.setTransform(1, 0, 0, 1, 0, 0);
     ctx.clearRect(0, 0, canvas.width, canvas.height)
 
-    allObjects[2].speed = 50 + (time / 2000)
+    allObjects[2].speed = 100 + (time / 500)
 
     var deltaTime = (time - lastTime) / 1000
 

@@ -114,7 +114,7 @@ export class Ball extends Object {
             this.hspeed *= -1
             this.position.x = Math.min(Math.max(this.position.x, min_x), max_x)
 
-            if (collision < 0) {
+            if (collision <= 0) {
                 collision = 1
             }
         }
